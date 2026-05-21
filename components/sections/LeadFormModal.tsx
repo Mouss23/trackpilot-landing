@@ -241,11 +241,11 @@ function LeadForm({
       <div className="flex flex-col items-center py-4 text-center">
         <CheckCircle2 className="h-14 w-14 text-success" />
         <h2 id={titleId} className="mt-5 text-2xl font-semibold text-ink">
-          C&apos;est noté !
+          Vous êtes sur la liste !
         </h2>
         <p className="mt-3 text-sm leading-relaxed text-muted">
-          On revient vers vous sous 24h avec votre audit personnalisé. À très
-          vite.
+          TrackPilot est en cours de développement. Vous serez parmi les
+          premiers informés du lancement.
         </p>
         <Button
           variant="primary"
