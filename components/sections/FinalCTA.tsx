@@ -35,10 +35,6 @@ export default function FinalCTA() {
             <ArrowRight size={20} />
           </Button>
         </div>
-
-        <p className="mt-5 text-sm text-faint">
-          Audit gratuit · Sans carte bancaire · Sans engagement
-        </p>
       </Container>
     </Section>
   );

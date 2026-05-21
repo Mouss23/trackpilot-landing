@@ -26,7 +26,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="grain relative overflow-hidden pt-32 pb-20 md:pt-44 md:pb-28"
+      className="grain relative flex min-h-screen flex-col items-center justify-center overflow-hidden pt-32 pb-20 md:pt-44 md:pb-28"
     >
       {/* Glow radial indigo en arrière-plan */}
       <div className="glow-radial pointer-events-none absolute inset-0 -z-0" />
