@@ -31,18 +31,16 @@ import { cn } from "@/lib/cn";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-// TODO: remplacer par l'URL réelle (/formResponse) du Google Form
 const GOOGLE_FORM_ACTION_URL =
-  "https://docs.google.com/forms/d/e/FORM_ID/formResponse";
+  "https://docs.google.com/forms/u/3/d/1vUsFZwMKiUq1q88fv3tRuhOQm4ZTt8Gi6JN43FLZfdY/formResponse";
 
-// TODO: remplacer par les vrais IDs entry.XXXXXX du Google Form
 const FIELD_MAPPING = {
-  firstName: "entry.111111",
-  email: "entry.222222",
-  company: "entry.333333",
-  structureType: "entry.444444",
-  sources: "entry.555555",
-  budget: "entry.666666",
+  firstName: "entry.548761128",
+  email: "entry.1795130303",
+  company: "entry.1985102920",
+  structureType: "entry.951873469",
+  sources: "entry.3800038",
+  budget: "entry.1989170822",
   source: "entry.777777", // champ caché : source du CTA (tracking)
 };
 
