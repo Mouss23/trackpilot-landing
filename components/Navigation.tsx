@@ -69,7 +69,7 @@ export default function Navigation() {
         <div className="hidden items-center gap-3 md:flex">
           <ThemeToggle />
           <Button
-            variant="secondary"
+            variant="primary"
             size="sm"
             ctaSource="nav"
             onClick={() => openModal("nav")}
